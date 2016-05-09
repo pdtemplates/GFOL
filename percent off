@@ -3,7 +3,7 @@
 .xx123 {
   height:100%;
   width:100%;
-  background-color:#F1A4C3;
+  background-color:#FFF;
   font-size:10px;
   color:#000;
   font-family: Futura, sans-serif;
