@@ -1,0 +1,71 @@
+<div class="xx54321">
+<style>
+.xx54321 {
+  height:100%;
+  width:100%;
+  background-color:#BBAACC;
+  font-size:12px;
+  color:white;
+  font-family: helvetica;
+  padding-top: 6px;
+}
+.xx54321 p {
+    margin: 0
+}
+
+.xx54321 .line1 {
+  font-size: 2em;
+}
+
+.xx54321 .line2 {
+  font-size: 6em;
+  line-height: .8em;
+  font-weight:bold
+}
+.xx54321 .line3 {
+  font-size: 2.2em;
+  line-height: 1.3em;
+  font-weight:bold
+}
+
+.xx54321 .keyline {
+  border-bottom:4px solid white;
+  height: 7px;
+  width:90%;
+  margin: 0 auto
+}
+
+.xx54321 .line4 {
+    font-size: 1.3em;
+    font-weight: 400
+}
+
+.xx54321 .promo {
+  color: #9FC8E1;
+font-weight: bold
+}
+
+.pd-link, .pd-link a, .pd-link a:link, .pd-link a:visited, .pd-link a:hover {
+  font-size:1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: aqua;
+  background-color: #fff;
+  font-weight:700;
+  width:40%;
+  padding:0 4px;
+  display:block;
+  margin: 3px 3px 3px 3px;
+}
+
+</style>
+<div class="grid-root">
+  <div class="g-1-1">
+    <center><span class="line1">online &amp; in stores</span></center>
+    <center><span class="line2">00% off</span></center>
+    <center><span class="line3">logo for the family</span></center>
+    <center><span class="line4">limited time | use code <span class="promo">GFXXXX</span></span></center>
+<center><span class="pd-link">SHOP NOW</span><center>
+  </center></center></div>
+</div>  
+</div>
