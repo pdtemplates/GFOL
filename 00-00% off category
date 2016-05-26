@@ -1,0 +1,57 @@
+<div class="xx54321">
+<style>
+.xx54321 {
+  height:100%;
+  width:100%;
+  background-color:#00143E;
+  font-size:12px;
+  color:white;
+  font-family: helvetica;
+  padding-top: 6px;
+}
+.xx54321 p {
+    margin: 0
+}
+
+.xx54321 .line1 {
+  font-size: 2em;
+}
+
+.xx54321 .line2 {
+  font-size: 6em;
+  line-height: .8em;
+  font-weight:bold
+}
+.xx54321 .line3 {
+  font-size: 2em;
+  line-height: 1.3em;
+  font-weight:bold
+}
+
+.xx54321 .keyline {
+  border-bottom:4px solid white;
+  height: 8px;
+  width:90%;
+  margin: 0 auto
+}
+
+.xx54321 .line4 {
+    font-size: 1.5em;
+    font-weight: 400
+}
+
+.xx54321 .promo {
+  color: #9FC8E1;
+font-weight: bold
+}
+
+</style>
+<div class="grid-root">
+  <div class="g-1-1">
+    <center><span class="line1">online only sale</span></center>
+    <center><span class="line2">30-50%</span></center>
+    <center><span class="line3">off all jeans and shirts</span><div class="g-1-1 keyline"></div>
+    <span class="line4">limited time | use code <span class="promo">GFXXXX</span></span></center>
+  </div>
+</div>  
+</div>
