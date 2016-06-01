@@ -1,0 +1,62 @@
+<div class="PD_XXoffpurch">
+	<style>
+		.PD_XXoffpurch {
+			height:100%;
+			 width:100%;
+			background-color:#00143E;
+			font-size:12px;
+			 color:white;
+			 font-family: helvetica neue;
+			text-align: center; 
+			padding-top: 0px;
+		}
+		.PD_XXoffpurch .channel {
+			padding-top: 25px;
+			padding-bottom: 13px;
+			font-size: 1.5em;
+			line-height: 1em;
+			font-weight: 100;
+		}
+		.PD_XXoffpurch .percentOff {
+			font-size: 6.6em;
+			line-height: .9em;
+			padding-bottom: 8px;
+			font-weight:bold;
+		}
+		.PD_XXoffpurch .offer {
+			font-size: 2.5em;
+			line-height: 1em;
+			font-weight: 600;
+			letter-spacing: 0.01em;
+		}
+		.PD_XXoffpurch hr {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			border-width: 4px;
+			width: 91%;
+		}			
+		.PD_XXoffpurch hr.keyline{ 
+			margin-top: 14px;
+			margin-bottom: 5px;
+			width: 91%;
+		}
+		.PD_XXoffpurch .details {
+			font-size: 1.30em;
+			font-weight: 600;
+		}
+		.PD_XXoffpurch .promoCode {
+			color: #9FC8E1;
+			font-weight: 900; //bold
+		}
+	</style>
+
+	<div class="grid-root"> 
+		<div class="g-1-1">
+			<div class="channel">online &amp; in stores | limited time</div>
+			<div class="percentOff">00% off</div>
+			<div class="offer">your purchase</div>
+			<div class="details"><br></div>
+		</div>
+	</div>
+</div>
