@@ -2,17 +2,17 @@
 	<style>
 		.PD_XXoffpurch {
 			height:100%;
-			 width:100%;
-			background-color:#337B92;
+			width:100%;
+			background-color:#337b92;
 			font-size:12px;
-			 color:white;
-			 font-family: helvetica;
+			color:white;
+			font-family: helvetica;
 			text-align: center; 
-			padding-top: 0px;
+			padding-top: 3px;
 		}
 		.PD_XXoffpurch .channel {
 			padding-top: 8px;
-			padding-bottom: 5px;
+			padding-bottom: 12px;
 			font-size: 1.4em;
 			line-height: 1em;
 			font-weight: 100;
@@ -20,48 +20,40 @@
 		.PD_XXoffpurch .percentOff {
 			font-size: 5.6em;
 			line-height: .9em;
-			padding-bottom: 3px;
+			padding-bottom: 8px;
 			font-weight:bold;
 		}
 		.PD_XXoffpurch .offer {
 			font-size: 2.3em;
 			line-height: 0.7em;
+            letter-spacing: .01em;
 			padding-bottom: 8px;
 			font-weight: 600;
-			letter-spacing: 0.01em;
-		}
-		.PD_XXoffpurch .details {
-			font-size: 1.15em;
-			font-weight: 550;
-			padding-bottom: 8px;
-		}
-		.PD_XXoffpurch .promoCode {
-			color: #00143E;
-			font-weight: 900; //bold
+			padding-bottom: 3px;
 		}
 		.PD_XXoffpurch .pd-link, .pd-link a, .pd-link a:link, .pd-link a:visited, .pd-link a:hover {
 			font-size: 1.2em;
 			text-decoration: none;
 			text-transform: uppercase;
-			color: #337B92;
+			color: #337b92;
 			background-color: #FFF;
 			font-weight: 600;
+			letter-spacing: .05em;
 			width: 30%;
 			padding-top: 4px;
 			padding-bottom: 3px;
 			display:block;
 			margin: auto;  
-			letter-spacing: 0.05em;
 		}
-
 	</style>
 
+	
 	<div class="grid-root"> 
 		<div class="g-1-1">
-			<div class="channel">online &amp; in stores</div>
+			<div class="channel">online only | limited time</div>
 			<div class="percentOff">00% off</div>
 			<div class="offer">logo for the family</div>
-			<div class="details">limited time | use code <span class="promoCode">GFSAVE</span></div>
+			<div class="details"><br></div>
 			<div class="pd-link">SHOP NOW</div>
 		</div>
 	</div>
