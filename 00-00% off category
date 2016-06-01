@@ -6,7 +6,7 @@
 			background-color:#00143E;
 			font-size:12px;
 			 color:white;
-			 font-family: helvetica;
+			 font-family: helvetica neue;
 			text-align: center; 
 			padding-top: 0px;
 		}
@@ -27,7 +27,8 @@
 		.PD_XXoffpurch .offer {
 			font-size: 1.8em;
 			line-height: 0.7em;
-			font-weight: 700;
+			font-weight: 600;
+			letter-spacing: 0.02em;
 		}
 
 		.PD_XXoffpurch hr {
