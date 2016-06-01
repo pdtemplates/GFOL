@@ -1,57 +1,67 @@
-<div class="xx54321">
-<style>
-.xx54321 {
-  height:100%;
-  width:100%;
-  background-color:#00143E;
-  font-size:12px;
-  color:white;
-  font-family: helvetica;
-  padding-top: 6px;
-}
-.xx54321 p {
-    margin: 0
-}
+<div class="PD_XXoffpurch">
+	<style>
+		.PD_XXoffpurch {
+			height:100%;
+			 width:100%;
+			background-color:#00143E;
+			font-size:12px;
+			 color:white;
+			 font-family: helvetica;
+			text-align: center; 
+			padding-top: 0px;
+		}
 
-.xx54321 .line1 {
-  font-size: 2em;
-}
+		.PD_XXoffpurch .channel {
+			padding-top: 12px;
+			padding-bottom: 6px;
+			font-size: 1.9em;
+			line-height: 1em;
+			font-weight: 100;
+		}
+		.PD_XXoffpurch .percentOff {
+			font-size: 6.6em;
+			line-height: .9em;
+			padding-bottom: 6px;
+			font-weight:bold;
+		}
+		.PD_XXoffpurch .offer {
+			font-size: 1.8em;
+			line-height: 0.7em;
+			font-weight: 700;
+		}
 
-.xx54321 .line2 {
-  font-size: 6em;
-  line-height: .8em;
-  font-weight:bold
-}
-.xx54321 .line3 {
-  font-size: 2em;
-  line-height: 1.3em;
-  font-weight:bold
-}
+		.PD_XXoffpurch hr {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			border-width: 4px;
+			width: 91%;
+		}
+			
+		.PD_XXoffpurch hr.keyline{ 
+			margin-top: 14px;
+			margin-bottom: 5px;
+			width: 91%;
+		}
 
-.xx54321 .keyline {
-  border-bottom:4px solid white;
-  height: 8px;
-  width:90%;
-  margin: 0 auto
-}
+		.PD_XXoffpurch .details {
+			font-size: 1.30em;
+			font-weight: 600;
+		}
 
-.xx54321 .line4 {
-    font-size: 1.5em;
-    font-weight: 400
-}
+		.PD_XXoffpurch .promoCode {
+			color: #9FC8E1;
+			font-weight: 900; //bold
+		}
+	</style>
 
-.xx54321 .promo {
-  color: #9FC8E1;
-font-weight: bold
-}
-
-</style>
-<div class="grid-root">
-  <div class="g-1-1">
-    <center><span class="line1">online only sale</span></center>
-    <center><span class="line2">30-50%</span></center>
-    <center><span class="line3">off all jeans and shirts</span><div class="g-1-1 keyline"></div>
-    <span class="line4">limited time | use code <span class="promo">GFXXXX</span></span></center>
-  </div>
-</div>  
+	<div class="grid-root"> 
+		<div class="g-1-1">
+			<div class="channel">online only sale</div>
+			<div class="percentOff">00-00%</div>
+			<div class="offer">off all women's dresses</div>
+			<hr class="keyline">
+			<div class="details">limited time | use code <span class="promoCode">GFSAVE</span></div>
+		</div>
+	</div>
 </div>
