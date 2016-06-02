@@ -1,6 +1,6 @@
-<div class="PD_XXoffpurch">
+<div class="PD_XXoffCat">
 	<style>
-		.PD_XXoffpurch {
+		.PD_XXoffCat {
 			height:100%;
 			 width:100%;
 			background-color:#00143E;
@@ -10,59 +10,32 @@
 			text-align: center; 
 			padding-top: 0px;
 		}
-
-		.PD_XXoffpurch .channel {
-			padding-top: 12px;
-			padding-bottom: 6px;
-			font-size: 1.9em;
+		.PD_XXoffCat .channel {
+			padding-top: 25px;
+			padding-bottom: 13px;
+			font-size: 1.5em;
 			line-height: 1em;
 			font-weight: 100;
 		}
-		.PD_XXoffpurch .percentOff {
+		.PD_XXoffCat .percentOff {
 			font-size: 6.6em;
 			line-height: .9em;
-			padding-bottom: 6px;
+			padding-bottom: 8px;
 			font-weight:bold;
 		}
-		.PD_XXoffpurch .offer {
+		.PD_XXoffCat .offer {
 			font-size: 1.8em;
-			line-height: 0.7em;
+			line-height: 1em;
 			font-weight: 600;
-			letter-spacing: 0.02em;
-		}
-
-		.PD_XXoffpurch hr {
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-			border-width: 4px;
-			width: 91%;
-		}
-			
-		.PD_XXoffpurch hr.keyline{ 
-			margin-top: 14px;
-			margin-bottom: 5px;
-			width: 91%;
-		}
-
-		.PD_XXoffpurch .details {
-			font-size: 1.30em;
-			font-weight: 600;
-		}
-
-		.PD_XXoffpurch .promoCode {
-			color: #9FC8E1;
-			font-weight: 900; //bold
-		}
+			letter-spacing: 0.01em;
+		}		
 	</style>
 
 	<div class="grid-root"> 
 		<div class="g-1-1">
-			<div class="channel">online only sale</div>
+			<div class="channel">online &amp; in stores | limited time</div>
 			<div class="percentOff">00-00%</div>
 			<div class="offer">off all women's dresses</div>
-			<hr class="keyline">
-			<div class="details">limited time | use code <span class="promoCode">GFSAVE</span></div>
 		</div>
 	</div>
 </div>
