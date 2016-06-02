@@ -26,10 +26,9 @@
 		.PD_XXoffpurch .offer {
 			font-size: 2.3em;
 			line-height: 0.7em;
-            letter-spacing: .01em;
-			padding-bottom: 8px;
+			letter-spacing: .01em;
+			padding-bottom: 17px;
 			font-weight: 600;
-			padding-bottom: 3px;
 		}
 		.PD_XXoffpurch .pd-link, .pd-link a, .pd-link a:link, .pd-link a:visited, .pd-link a:hover {
 			font-size: 1.2em;
@@ -53,7 +52,6 @@
 			<div class="channel">online only | limited time</div>
 			<div class="percentOff">00% off</div>
 			<div class="offer">logo for the family</div>
-			<div class="details"><br></div>
 			<div class="pd-link">SHOP NOW</div>
 		</div>
 	</div>
