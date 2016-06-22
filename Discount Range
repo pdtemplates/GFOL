@@ -1,6 +1,6 @@
-<div class="PD_XXoffCat">
+<div class="PD_DiscountRange">
 	<style>
-		.PD_XXoffCat {
+		.PD_DiscountRange {
 			height:100%;
 			 width:100%;
 			background-color:#00143E;
@@ -10,20 +10,20 @@
 			text-align: center; 
 			padding-top: 0px;
 		}
-		.PD_XXoffCat .channel {
+		.PD_DiscountRange .channel {
 			padding-top: 25px;
 			padding-bottom: 13px;
 			font-size: 1.5em;
 			line-height: 1em;
 			font-weight: 100;
 		}
-		.PD_XXoffCat .percentOff {
+		.PD_DiscountRange .percentOff {
 			font-size: 6.6em;
 			line-height: .9em;
 			padding-bottom: 8px;
 			font-weight:bold;
 		}
-		.PD_XXoffCat .offer {
+		.PD_DiscountRange .offer {
 			font-size: 1.8em;
 			line-height: 1em;
 			font-weight: 600;
