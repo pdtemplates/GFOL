@@ -1,6 +1,6 @@
-<div class="PD_XXoffPurch">
+<div class="PD_StraightDiscount">
 	<style>
-		.PD_XXoffPurch {
+		.PD_StraightDiscount {
 			height:100%;
 			width:100%;
 			background-color:#00143E;
@@ -10,20 +10,20 @@
 			text-align: center; 
 			padding-top: 0px;
 		}
-		.PD_XXoffPurch .channel {
+		.PD_StraightDiscount .channel {
 			padding-top: 25px;
 			padding-bottom: 13px;
 			font-size: 1.5em;
 			line-height: 1em;
 			font-weight: 100;
 		}
-		.PD_XXoffPurch .percentOff {
+		.PD_StraightDiscount .percentOff {
 			font-size: 6.6em;
 			line-height: .9em;
 			padding-bottom: 8px;
 			font-weight:bold;
 		}
-		.PD_XXoffPurch .offer {
+		.PD_StraightDiscount .offer {
 			font-size: 2.5em;
 			line-height: 1em;
 			font-weight: 600;
