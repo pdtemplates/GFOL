@@ -1,6 +1,6 @@
-<div class="PD_XXoffCat_wCTA">
+<div class="PD_StraightDiscount_1_CTA">
 	<style>
-		.PD_XXoffCat_wCTA {
+		.PD_StraightDiscount_1_CTA {
 			height:100%;
 			width:100%;
 			background-color:#337b92;
@@ -10,27 +10,27 @@
 			text-align: center; 
 			padding-top: 3px;
 		}
-		.PD_XXoffCat_wCTA .channel {
+		.PD_StraightDiscount_1_CTA .channel {
 			padding-top: 8px;
 			padding-bottom: 12px;
 			font-size: 1.4em;
 			line-height: 1em;
 			font-weight: 100;
 		}
-		.PD_XXoffCat_wCTA .percentOff {
+		.PD_StraightDiscount_1_CTA .percentOff {
 			font-size: 5.6em;
 			line-height: .9em;
 			padding-bottom: 8px;
 			font-weight:bold;
 		}
-		.PD_XXoffCat_wCTA .offer {
+		.PD_StraightDiscount_1_CTA .offer {
 			font-size: 2.3em;
 			line-height: 0.7em;
 			letter-spacing: .01em;
 			padding-bottom: 17px;
 			font-weight: 600;
 		}
-		.PD_XXoffCat_wCTA .pd-link, .pd-link a, .pd-link a:link, .pd-link a:visited, .pd-link a:hover {
+		.PD_StraightDiscount_1_CTA .pd-link, .pd-link a, .pd-link a:link, .pd-link a:visited, .pd-link a:hover {
 			font-size: 1.2em;
 			text-decoration: none;
 			text-transform: uppercase;
