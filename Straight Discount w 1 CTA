@@ -1,58 +1,73 @@
-<div class="PD_StraightDiscount_1_CTA">
-	<style>
-		.PD_StraightDiscount_1_CTA {
-			height:100%;
-			width:100%;
-			background-color:#337b92;
-			font-size:12px;
-			color:white;
-			font-family: helvetica;
-			text-align: center; 
-			padding-top: 3px;
-		}
-		.PD_StraightDiscount_1_CTA .channel {
-			padding-top: 8px;
-			padding-bottom: 12px;
-			font-size: 1.4em;
-			line-height: 1em;
-			font-weight: 100;
-		}
-		.PD_StraightDiscount_1_CTA .percentOff {
-			font-size: 5.6em;
-			line-height: .9em;
-			padding-bottom: 8px;
-			font-weight:bold;
-		}
-		.PD_StraightDiscount_1_CTA .offer {
-			font-size: 2.3em;
-			line-height: 0.7em;
-			letter-spacing: .01em;
-			padding-bottom: 17px;
-			font-weight: 600;
-		}
-		.PD_StraightDiscount_1_CTA .pd-link, .pd-link a, .pd-link a:link, .pd-link a:visited, .pd-link a:hover {
-			font-size: 1.2em;
-			text-decoration: none;
-			text-transform: uppercase;
-			color: #337b92;
-			background-color: #FFF;
-			font-weight: 600;
-			letter-spacing: .05em;
-			width: 30%;
-			padding-top: 4px;
-			padding-bottom: 3px;
-			display:block;
-			margin: auto;  
-		}
-	</style>
+<style>
+	.PD_StraightDiscount_1_CTA {
+		height:100%;
+		width:100%;
+		background-color:#337b92;
+		font-size: 1em;
+		color:white;
+		font-family: helvetica;
+		text-align: center; 
+		padding-top: 0.0em;
+		position:relative;
+	}
+	.PD_DiscountRange a {
+		color:white;
+		text-decoration: none;
+	}	
+	.PD_StraightDiscount_1_CTA .channel {
+		padding-top: 0em;
+		padding-bottom: 0em;
+		font-size: 1.4em;
+		line-height: 1em;
+		font-weight: 100;
+	}
+	.PD_StraightDiscount_1_CTA .percentOff {
+		font-size: 5.6em;
+		line-height: 1.0em;
+		padding-top: 0.1em;
+		padding-bottom: 0em;
+		font-weight:bold;
+	}
+	.PD_StraightDiscount_1_CTA .offer {
+		font-size: 2.3em;
+		line-height: 0.7em;
+		letter-spacing: 0.01em;
+		padding-bottom: 0.6em;
+		font-weight: 600;
+	}
+	.PD_StraightDiscount_1_CTA .pd-link, .pd-link a, .pd-link a:link, .pd-link a:visited, .pd-link a:hover {
+		font-size: 1.2em;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #337b92;
+		background-color: #FFF;
+		font-weight: 600;
+		letter-spacing: 0.05em;
+		width: 30%;
+		padding-top: 0.1em;
+		padding-bottom: 0.1em;
+		display:block;
+		margin: auto;  
+	}
+	.pd__html-text-wrapper {
+		width:100%;
+		position:absolute;
+		top:50%;
+		transform:translateY(-50%);
+		-webkit-transform:translateY(-50%);
+		-moz-transform:translateY(-50%);
+	}	
+</style>
 
-	
-	<div class="grid-root"> 
-		<div class="g-1-1">
-			<div class="channel">online only | limited time</div>
-			<div class="percentOff">00% off</div>
-			<div class="offer">logo for the family</div>
-			<div class="pd-link">SHOP NOW</div>
+<div class="PD_StraightDiscount_1_CTA">	
+	<div class="pd__html-text-wrapper">
+		<div class="grid-root"> 
+			<div class="g-1-1">
+				<div class="channel">online only | limited time</div>
+				<div class="percentOff">00% off</div>
+				<div class="offer">logo for the family</div>
+				<div class="pd-link">SHOP NOW</div>
+			</div>
 		</div>
 	</div>
 </div>
