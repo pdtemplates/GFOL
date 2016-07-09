@@ -1,0 +1,80 @@
+<style>
+	.PD_StraightDiscount_2_CTA {
+		height:100%;
+		width:100%;
+		background-color:#465077;
+		font-size: 1em;
+		color:white;
+		font-family: helvetica;
+		text-align: center; 
+		position:relative;
+		margin: 0;
+		padding: 0;
+	}
+	.PD_DiscountRange a {
+		color:white;
+		text-decoration: none;
+	}	
+	.PD_StraightDiscount_2_CTA .channel {
+		padding-top: 0em;
+		padding-bottom: 0em;
+		font-size: 1.4em;
+		line-height: 1em;
+		font-weight: 100;
+	}
+	.PD_StraightDiscount_2_CTA .percentOff {
+		font-size: 5.6em;
+		line-height: 1.0em;
+		padding-top: 0.1em;
+		padding-bottom: 0em;
+		font-weight:bold;
+	}
+	.PD_StraightDiscount_2_CTA .offer {
+		font-size: 2.3em;
+		line-height: 0.7em;
+		letter-spacing: 0.01em;
+		padding-bottom: 0.6em;
+		font-weight: 600;
+	}
+	.PD_StraightDiscount_2_CTA .pd-link, .pd-link a, .pd-link a:link, .pd-link a:visited, .pd-link a:hover {
+		font-size: 1.2em;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #465077;
+		background-color: #FFF;
+		font-weight: 600;
+		letter-spacing: 0.05em;
+		width: 70%;
+		padding-top: 0.1em;
+		padding-bottom: 0.1em;
+		display:block;
+		margin: auto;  
+	}
+	.pd__html-text-wrapper {
+		width:100%;
+		position:absolute;
+		top:50%;
+		transform:translateY(-50%);
+		-webkit-transform:translateY(-50%);
+		-moz-transform:translateY(-50%);
+	}		
+</style>
+
+<div class="PD_StraightDiscount_2_CTA">	
+	<div class="pd__html-text-wrapper">
+		<div class="grid-root"> 
+			<div class="g-1-1">
+				<div class="channel">ends 8/5 | online & in stores</div>
+				<div class="percentOff">00% off</div>
+				<div class="offer">adult styles</div>
+			</div>	
+
+				<div class="g-1-2" >
+				    <a href="women.html" class="pd-link">WOMEN</a>
+				</div>
+				<div class="g-1-2" >
+				    <a  href="women.html" class="pd-link">MEN</a>
+				</div>	
+		</div>
+	</div>
+</div>
