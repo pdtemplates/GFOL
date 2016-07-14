@@ -1,80 +1,77 @@
 <style>
-	.PD_StraightDiscount_2_CTA {
+	#pd__gf__2cta-wrapper {
+		width:100%;
 		height:100%;
-		width:100%;
-		background-color:#465077;
-		font-size: 1em;
-		color:white;
-		font-family: helvetica;
-		text-align: center; 
+		margin:0 auto;
+		text-align:center;
 		position:relative;
-		margin: 0;
-		padding: 0;
+		background-color:#465077;
+		border:3px solid white;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
 	}
-	.PD_DiscountRange a {
-		color:white;
-		text-decoration: none;
-	}	
-	.PD_StraightDiscount_2_CTA .channel {
-		padding-top: 0em;
-		padding-bottom: 0em;
-		font-size: 1.4em;
-		line-height: 1em;
-		font-weight: 100;
-	}
-	.PD_StraightDiscount_2_CTA .percentOff {
-		font-size: 5.6em;
-		line-height: 1.0em;
-		padding-top: 0.1em;
-		padding-bottom: 0em;
-		font-weight:bold;
-	}
-	.PD_StraightDiscount_2_CTA .offer {
-		font-size: 2.3em;
-		line-height: 0.7em;
-		letter-spacing: 0.01em;
-		padding-bottom: 0.6em;
-		font-weight: 600;
-	}
-	.PD_StraightDiscount_2_CTA .pd-link, .pd-link a, .pd-link a:link, .pd-link a:visited, .pd-link a:hover {
-		font-size: 1.2em;
-		text-decoration: none;
-		text-transform: uppercase;
-		color: #465077;
-		background-color: #FFF;
-		font-weight: 600;
-		letter-spacing: 0.05em;
-		width: 70%;
-		padding-top: 0.1em;
-		padding-bottom: 0.1em;
-		display:block;
-		margin: auto;  
-	}
-	.pd__html-text-wrapper {
-		width:100%;
+	#pd__gf__2cta-text-wrapper {
+		width:95%;
 		position:absolute;
 		top:50%;
-		transform:translateY(-50%);
-		-webkit-transform:translateY(-50%);
-		-moz-transform:translateY(-50%);
-	}		
+		left:50%;
+		transform:translate(-50%,-50%);
+		-webkit-transform:translate(-50%,-50%);
+		-moz-transform:translate(-50%,-50%);
+		color:#fff;
+	}
+	#pd__gf__2cta-super-title {
+		font-size:1.3em;
+	}
+	#pd__gf__2cta-title {
+		font-size:4.8em;
+    	font-weight:600;
+    	letter-spacing:1px;
+	}
+	#pd__gf__2cta-subtitle {
+		font-size:2.1em;
+		margin-bottom:10px;
+		letter-spacing:1px;
+		font-weight:400;
+	}
+	#pd__gf__2cta-cta-wrapper {
+		width:100%;
+	}
+	.pd__gf__2cta-cta {
+		display:inline-block;
+	    width: calc(50% - 12px);
+		margin: 0 3px;
+		vertical-align: top;
+		background-color:#fff;
+		padding:5px 0;
+		letter-spacing:1px;
+	}
+	.pd__gf__2cta-cta a {
+		font-size:1.3em;
+		font-weight:600;
+		text-transform:uppercase;
+		text-decoration:none;
+		color:#465077;
+	}
 </style>
 
-<div class="PD_StraightDiscount_2_CTA">	
-	<div class="pd__html-text-wrapper">
-		<div class="grid-root"> 
-			<div class="g-1-1">
-				<div class="channel">ends 8/5 | online & in stores</div>
-				<div class="percentOff">00% off</div>
-				<div class="offer">adult styles</div>
-			</div>	
-
-				<div class="g-1-2" >
-				    <a href="women.html" class="pd-link">WOMEN</a>
+	<div id="pd__gf__2cta-wrapper">
+		<div id="pd__gf__2cta-text-wrapper">
+			<div id="pd__gf__2cta-super-title">ends 8/3 | online & in stores</div>
+			<div id="pd__gf__2cta-title">00% off</div>
+			<div id="pd__gf__2cta-subtitle">adult styles</div>
+			<div id="pd__gf__2cta-cta-wrapper">
+				<div class="pd__gf__2cta-cta">
+					<a href="/browse/category.do?cid=1050464">
+						women
+					</a>
 				</div>
-				<div class="g-1-2" >
-				    <a  href="women.html" class="pd-link">MEN</a>
-				</div>	
+				<div class="pd__gf__2cta-cta">
+					<a href="/browse/category.do?cid=1050468">
+						men
+					</a>
+				</div>
+			</div>
 		</div>
 	</div>
-</div>
