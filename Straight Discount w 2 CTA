@@ -48,13 +48,16 @@
 		padding:5px 0;
 		letter-spacing:1px;
 	}
-	.pd__gf__2cta-cta a {
+	.pd__gf__2cta-cta {
 		font-size:1.3em;
 		font-weight:600;
 		text-transform:uppercase;
 		text-decoration:none;
 		color:#465077;
 	}
+	.pd__gf__2cta-cta a {
+	}
+
 </style>
 
 	<div id="pd__gf__2cta-wrapper">
@@ -63,16 +66,16 @@
 			<div id="pd__gf__2cta-title">00% off</div>
 			<div id="pd__gf__2cta-subtitle">adult styles</div>
 			<div id="pd__gf__2cta-cta-wrapper">
-				<div class="pd__gf__2cta-cta">
-					<a href="/browse/category.do?cid=1050464">
+				<a href="/browse/category.do?cid=1042791" mlink="PD_1_W">
+					<div class="pd__gf__2cta-cta">
 						women
-					</a>
-				</div>
-				<div class="pd__gf__2cta-cta">
-					<a href="/browse/category.do?cid=1050468">
+					</div>
+				</a>
+				<a href="/browse/category.do?cid=1052118" mlink="PD_1_M">
+					<div class="pd__gf__2cta-cta">
 						men
-					</a>
-				</div>
+					</div>
+				</a>
 			</div>
 		</div>
 	</div>
