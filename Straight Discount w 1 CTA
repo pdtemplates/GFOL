@@ -10,7 +10,7 @@
 		padding-top: 0.0em;
 		position:relative;
 	}
-	.PD_DiscountRange a {
+	.PD_StraightDiscount_1_CTA a {
 		color:white;
 		text-decoration: none;
 	}	
@@ -35,7 +35,7 @@
 		padding-bottom: 0.6em;
 		font-weight: 600;
 	}
-	.PD_StraightDiscount_1_CTA .pd-link, .pd-link a, .pd-link a:link, .pd-link a:visited, .pd-link a:hover {
+	.PD_StraightDiscount_1_CTA .pd-link {
 		font-size: 1.2em;
 		text-decoration: none;
 		text-transform: uppercase;
@@ -43,9 +43,9 @@
 		background-color: #FFF;
 		font-weight: 600;
 		letter-spacing: 0.05em;
-		width: 30%;
-		padding-top: 0.1em;
-		padding-bottom: 0.1em;
+		width: 35%;
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
 		display:block;
 		margin: auto;  
 	}
@@ -61,13 +61,15 @@
 
 <div class="PD_StraightDiscount_1_CTA">	
 	<div class="pd__html-text-wrapper">
-		<div class="grid-root"> 
-			<div class="g-1-1">
-				<div class="channel">online only | limited time</div>
-				<div class="percentOff">00% off</div>
-				<div class="offer">logo for the family</div>
-				<div class="pd-link">SHOP NOW</div>
+		<a href="/browse/category.do?cid=1042791" mlink="PD_1">
+			<div class="grid-root"> 
+				<div class="g-1-1">
+					<div class="channel">online only | limited time</div>
+					<div class="percentOff">00% off</div>
+					<div class="offer">logo for the family</div>
+					<div class="pd-link">SHOP NOW</div>
+				</div>
 			</div>
-		</div>
+		</a>
 	</div>
 </div>
