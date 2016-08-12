@@ -1,0 +1,61 @@
+<style>
+	.PD_StraightDiscount2 {
+		height:100%;
+		width:100%;
+		background-color:#00143E;
+		font-size: 12px;
+		color:white;
+		font-family: helvetica;
+		text-align: center; 
+		position:relative;
+	}
+	.PD_StraightDiscount2 a {
+		color:white;
+		text-decoration: none;
+	}
+	.PD_StraightDiscount2 .channel {
+		padding-top: 0.3em;
+		padding-bottom: 0.6em;
+		font-size: 1.3em;
+		line-height: 1em;
+		font-weight: 100;
+	}
+	.PD_StraightDiscount2 .percentOff {
+		font-size: 6.0em;
+		line-height: 0.9em;
+		padding-bottom: 0.0em;
+		font-weight:bold;
+	}
+	.PD_StraightDiscount2 .offer {
+		font-size: 1.6em;
+		line-height: 1em;
+		font-weight: 600;
+		padding-bottom: 0.3em;
+		letter-spacing: 0.01em;
+	}
+	.PD_StraightDiscount2 .subcopy{
+		font-size: 1em;
+	}
+	.pd__html-text-wrapper {
+		width:100%;
+		position:absolute;
+		top:50%;
+		transform:translateY(-50%);
+		-webkit-transform:translateY(-50%);
+		-moz-transform:translateY(-50%);
+	}
+</style>
+
+
+<div class="PD_StraightDiscount2">
+	<div class="pd__html-text-wrapper">
+		<div class="grid-root"> 
+			<div class="g-1-1">
+				<div class="channel">ends 8/24  | online &amp; in stores</div>
+				<div class="percentOff">20% off</div>
+				<div class="offer">your purchase</div>
+				<div class="subcopy">(including jeans!)</div>
+			</div>
+		</div>
+	</div>
+</div>
