@@ -1,59 +1,47 @@
 <style>
-	.PD_DiscountRange {
-		height:100%;
+	#Discount_Range {
 		width:100%;
-		background-color:#00143E;
-		font-size:12px;
-		color:white;
-		font-family: helvetica neue;
-		text-align: center; 
-		padding-top: 0px;
+		height:100%;
+		background-color:#00143e;
+		color:#FFFFFF;
+		font-family: helvetica;
+		text-align:center;
 		position:relative;
 	}
-	.PD_DiscountRange a {
-		color:white;
-		text-decoration: none;
-	}
-	.PD_DiscountRange .channel {
-		padding-top: 0.0em;
-		padding-bottom: 0.2em;
-		font-size: 1.5em;
-		line-height: 0.8em;
-		font-weight: 100;
-	}
-	.PD_DiscountRange .percentOff {
-		font-size: 6.6em;
-		line-height: 1.2em;
-		padding-bottom: 0.0em;
-		font-weight:bold;
-	}
-	.PD_DiscountRange .offer {
-		font-size: 1.8em;
-		line-height: 0.8em;
-		font-weight: 600;
-		letter-spacing: 0.01em;
-		padding-bottom: 0.2em;
-	}	
-	.pd__html-text-wrapper {
-		width:100%;
+	#Discount_Range-Inner-wrapper { 
+		width:98%;
 		position:absolute;
 		top:50%;
-		transform:translateY(-50%);
-		-webkit-transform:translateY(-50%);
-		-moz-transform:translateY(-50%);
-	}	
+		left:50%;
+		transform:translate(-50%,-50%);
+		-webkit-transform:translate(-50%,-50%);
+		-moz-transform:translate(-50%,-50%);
+	}
+	#Discount_Range-DiscountDetails {
+		font-size:1.4em;
+		line-height:2.0;
+		color:#FFFFFF;
+		padding-top:0.0em;
+	}
+	#Discount_Range-PercentOff {
+		color:#FFFFFF;
+		font-size:5.8em;
+		font-weight:bold;
+		line-height:1.1
+	}
+	#Discount_Range-DiscountType {
+		color:#FFFFFF;
+		font-size:1.6em;
+		font-weight:600;
+		letter-spacing:.02em;
+		line-height:1.5
+	}
 </style>
 
-<div class="PD_DiscountRange">
-	<div class="pd__html-text-wrapper">
-		<div class="grid-root"> 
-			<div class="g-1-1">
-				<a href="/browse/category.do?cid=1042791" mlink="PD_1">
-				<div class="channel">online &amp; in stores | limited time</div>
-				<div class="percentOff">00-00%</div>
-				<div class="offer">off all women's dresses</div>
-				</a>
-			</div>
-		</div>
+<div id="Discount_Range">
+	<div id="Discount_Range-Inner-wrapper">
+			<div id="Discount_Range-DiscountDetails">limited time | online &amp; in stores</div>
+			<div id="Discount_Range-PercentOff">00-00%</div>
+			<div id="Discount_Range-DiscountType">off all women's dresses</div>
 	</div>
 </div>
