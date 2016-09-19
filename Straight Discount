@@ -18,30 +18,39 @@
 		-moz-transform:translate(-50%,-50%);
 	}
 	#Straight_Discount-DiscountDetails {
-		font-size:1.4em;
-		line-height:2.0;
+		font-size:1.25em;
+		line-height: 2.5;
 		color:#FFFFFF;
-		padding-top:0.0em;
+		padding-top:1.0em;
 	}
 	#Straight_Discount-PercentOff {
 		color:#FFFFFF;
-		font-size:5.8em;
+		font-size:5.2em;
 		font-weight:bold;
-		line-height:1.1
+		line-height:1;
 	}
 	#Straight_Discount-DiscountType {
 		color:#FFFFFF;
-		font-size:2.1em;
+		font-size:1.9em;
 		font-weight:600;
-		letter-spacing:.075em;
-		line-height:1.5
+		letter-spacing:0.075em;
+		line-height:1.5;
+	}
+	#Straight_Discount-Redemption {
+		color:#FFFFFF;
+		font-size:0.9em;
+		line-height:2.0;
+		color:#FFFFFF;
+		line-height:1.5;
 	}
 </style>	
 
 <div id="Straight_Discount">
 	<div id="Straight_Discount-Inner-wrapper">
 			<div id="Straight_Discount-DiscountDetails">limited time | online &amp; in stores</div>
-			<div id="Straight_Discount-PercentOff">00% off</div>
+			<div id="Straight_Discount-PercentOff">15% off</div>
 			<div id="Straight_Discount-DiscountType">your purchase</div>
-	</div>
+			<div id="Straight_Discount-Redemption">use code XXXXX</div>
+
+
 </div>
