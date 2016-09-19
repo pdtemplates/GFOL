@@ -21,14 +21,14 @@
 		color:#FFFFFF;
 		font-size:5.2em;
 		font-weight:bold;
-		line-height:1
+		line-height:1;
 	}
 	#XX_Off_Purchase2-DiscountType {
 		color:#FFFFFF;
 		font-size:1.9em;
 		font-weight:600;
-		letter-spacing:.075em;
-		line-height:1.5
+		letter-spacing:0.075em;
+		line-height:1.5;
 	}
 	#XX_Off_Purchase2-DiscountDetails {
 		font-size:1.25em;
@@ -36,7 +36,7 @@
 		color:#FFFFFF;
 		padding-top:1.0em;
 	}
-	#XX_Off_Purchase2-PromoCode {
+	#XX_Off_Purchase2-Repemtion {
 		font-size:0.9em;
 		line-height:3.0em;
 		color:#FFFFFF;
@@ -48,6 +48,6 @@
 			<div id="XX_Off_Purchase2-DiscountDetails">ends XX/XX | online only</div>
 			<div id="XX_Off_Purchase2-DollarOff">$20&nbsp;off</div>
 			<div id="XX_Off_Purchase2-DiscountType">your purchase of $75+</div>
-			<div id="XX_Off_Purchase2-PromoCode">use code XXXXXX</div>
-	</div>
+			<div id="XX_Off_Purchase2-Redemption">use code XXXXXX</div>
+
 </div>
