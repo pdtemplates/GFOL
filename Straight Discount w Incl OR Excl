@@ -8,7 +8,7 @@
 		text-align:center;
 		position:relative;
 	}
-	#XX_Off_Inner-wrapper { 
+	#XX_Off_Purchase2-Inner-wrapper { 
 		width:98%;
 		position:absolute;
 		top:50%;
@@ -19,9 +19,9 @@
 	}
 	#XX_Off_Purchase2-DiscountDetails {
 		font-size:1.25em;
-		line-height:2.75;
+		line-height:2;
 		color:#FFFFFF;
-		padding-top:;	
+		padding-bottom:0.5em;	
 	}
 	#XX_Off_Purchase2-PercentOff {
 		color:#FFFFFF;
@@ -45,7 +45,7 @@
 </style>	
 
 <div id="XX_Off_Purchase2">
-	<div id="XX_Off_Inner-wrapper">
+	<div id="XX_Off_Purchase2-Inner-wrapper">
 			<div id="XX_Off_Purchase2-DiscountDetails">limited time | online &amp; in stores</div>
 			<div id="XX_Off_Purchase2-PercentOff">00% off</div>
 			<div id="XX_Off_Purchase2-DiscountType">your purchase</div>
