@@ -19,9 +19,9 @@
 	}
 	#Straight_Discount-DiscountDetails {
 		font-size:1.25em;
-		line-height: 2.75;
+		line-height: 2;
 		color:#FFFFFF;
-		padding-top:
+		padding-bottom:0.5em;
 	}
 	#Straight_Discount-PercentOff {
 		color:#FFFFFF;
