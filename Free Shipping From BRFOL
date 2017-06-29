@@ -1,0 +1,64 @@
+<undefined><undefined><style>
+	#XX_Off_Purchase {
+		width:100%;
+		height:100%;
+		color:#000;
+    background:#B8D3F1;
+		font-family: futura-pt, futura;
+		text-align:center;
+		position:relative;
+	}
+#XX_Off_Inner-wrapper { 
+width:98%;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+-webkit-transform:translate(-50%,-50%);
+-moz-transform:translate(-50%,-50%);
+}
+	#XX_Off_Purchase-PercentOff {
+		color:#1A4C9F;
+		font-size:3.25em;
+		font-weight:bold;
+		line-height:1
+	}
+	#XX_Off_Purchase-DiscountType {
+		color:#1A4C9F;
+		font-size:1.50em;
+		font-weight:900;
+		letter-spacing:.075em;
+		line-height:1
+	}
+	#XX_Off_Purchase-DiscountDetails {
+		font-size:1.25em;
+		line-height:2;
+    color:#000;
+	}
+	#XX_Off_Purchase-DiscountDetails2 {
+		font-size:1.25em;
+		line-height:2;
+    color:#000;
+
+text-decoration:none;
+cursor:pointer;
+width:100%;
+display:block;
+	}
+a.pd_div-wrapper {
+text-decoration:none;
+cursor:pointer;
+}
+
+</style></undefined></undefined>	
+<div id="XX_Off_Purchase">
+<div id="XX_Off_Inner-wrapper">
+    <a class="pd_div-wrapper" mlink="PD_2_BRFS" href="/browse/category.do?cid=1045503">
+	<div id="XX_Off_Purchase-PercentOff">FREE SHIPPING</div>
+	<div id="XX_Off_Purchase-DiscountType">NOW ON ALL ORDERS OF $50+</div>
+	<div id="XX_Off_Purchase-DiscountDetails">(WAS $100+)</div>
+	<div id="XX_Off_Purchase-DiscountDetails2">Ends 7/9.  Code: <b>SHIPPED</B></div>
+		</div>
+	</div>
+</div>
+</div>
