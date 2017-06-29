@@ -4,7 +4,7 @@
 		height:100%;
 		color:#000;
     background:#B8D3F1;
-		font-family: futura-pt, futura;
+		font-family: helvetica-pt, helvetica;
 		text-align:center;
 		position:relative;
 	}
