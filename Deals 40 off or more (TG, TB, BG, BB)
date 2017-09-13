@@ -1,0 +1,106 @@
+<style>
+	#Cat_Fr_X_4_CTA {
+		box-sizing:border-box;
+		width:100%;
+		height:100%;
+		background-color:#FFFFFF;
+		color:#88a6be;
+		font-family: helvetica;
+		text-align:center;
+		position:relative;
+		border:0.4em solid #88a6be;
+	}
+	#XX_Off_Inner-wrapper { 
+		width:90%;
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform:translate(-50%,-50%);
+		-webkit-transform:translate(-50%,-50%);
+		-moz-transform:translate(-50%,-50%);
+	}
+	#Cat_Fr_X_4_CTA-CatFromX {
+		color:#00143e;
+		font-size:2em;
+		font-weight:bold;
+		line-height:0.75;
+	}
+	#Cat_Fr_X_4_CTA-DiscountType {
+		color:##88a6be;
+		font-size:2.5em;
+		font-weight:600;
+		line-height:1.1;
+		padding-bottom: 0.4em;
+
+	}
+	#Cat_Fr_X_4_CTA-DiscountDetails {
+		font-size:1.1em;
+		letter-spacing:0.05em;
+		font-weight:500;
+		line-height:1;
+		color:#000d42;
+		padding-bottom: 0.1em;
+		
+	}
+	#Cat_Fr_X_4_CTA-HeaderCTA {
+		font-size:1.3em;
+		letter-spacing:.075em;
+		font-weight:bold;
+		line-height:1;
+		color:#FFF;
+	}
+	#Cat_Fr_X_4_CTA-CTA-wrapper {
+		width:100%;
+	}
+	.Cat_Fr_X_4_CTA-CTA {
+		background-color:transparent;
+		color:#000d42;
+		font-weight:600;
+		display:inline-block;
+		width: calc(50% - 10px);
+		margin: 6px 1px 0 1px;
+		vertical-align: top;
+		padding:5px 1px;
+		letter-spacing:.1em;
+		cursor:pointer;
+		font-size:1.1em;
+		border: 2px solid #000d42;
+	}
+	.Cat_Fr_X_4_CTA-CTA a {
+
+		font-weight:600;
+		color:#00143e;
+		text-decoration:none;
+		cursor:pointer;
+		width:100%;
+		display:block;
+	}
+	a.pd_div-wrapper {
+		text-decoration:none;
+		cursor:pointer;
+	}
+</style>
+
+<div id="Cat_Fr_X_4_CTA">
+	<div id="XX_Off_Inner-wrapper">
+			<div id="Cat_Fr_X_4_CTA-DiscountDetails">limited time | online only</div>
+			
+			<div id="Cat_Fr_X_4_CTA-DiscountType">Deals <br>40% Off Or More</div>
+		<div id="Cat_Fr_X_4_CTA-CTA-wrapper">
+			<a href="/browse/category.do?cid=1057967" mlink="PD_2_TG">
+				<div class="Cat_Fr_X_4_CTA-CTA">TODDLER GIRL</div>
+			</a>
+			<a href="/browse/category.do?cid=1063932" mlink="PD_2_TB">
+				<div class="Cat_Fr_X_4_CTA-CTA">TODDLER BOY</div>
+			</a>
+		</div>
+<div id="Cat_Fr_X_4_CTA-CTA-wrapper">
+			<a href="/browse/category.do?cid=1057967&scrollToCid=1085757" mlink="PD_2_BG">
+				<div class="Cat_Fr_X_4_CTA-CTA">BABY GIRL</div>
+			</a>
+			<a href="/browse/category.do?cid=1063932&scrollToCid=1085760" mlink="PD_2_BB">
+				<div class="Cat_Fr_X_4_CTA-CTA">BABY BOY</div>
+			</a>
+		</div>
+	</div>
+</div>
