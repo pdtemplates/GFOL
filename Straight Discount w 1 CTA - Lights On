@@ -46,14 +46,14 @@
 		letter-spacing:0.075em;
 		font-weight:bold;
 		line-height:;
-		color:#00143e;
+		color:#FFFFFF;
 	}
 	#XX_Off_Purch_1CTA-CTA-wrapper {
 		width:100%;
 	}
 	.XX_Off_Purch_1CTA-CTA {
 		background-color:#FFFFFF;
-		color:#00143e;
+		color:#000000;
 		font-weight:600;
 		display:inline-block;
 		width: calc(50% - 36px);
