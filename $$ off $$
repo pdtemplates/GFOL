@@ -1,0 +1,54 @@
+<style>
+	#XX_Off_XX {
+		width:100%;
+		height:100%;
+		background-color:#000000;
+		color:#FFFFFF;
+		font-family: helvetica;
+		text-align:center;
+		position:relative;
+	}
+	#XX_Off_XX-Inner-wrapper { 
+		width:98%;
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform:translate(-50%,-50%);
+		-webkit-transform:translate(-50%,-50%);
+		-moz-transform:translate(-50%,-50%);
+	}
+	#XX_Off_XX-DiscountDetails {
+		font-size:1.25em;
+		line-height:2;
+		color:#FFFFFF;
+		padding-bottom:0.5em;
+	}	
+	#XX_Off_XX-DollarOff {
+		color:#FFFFFF;
+		font-size:5.2em;
+		font-weight:bold;
+		line-height:1;
+	}
+	#XX_Off_XX-DiscountType {
+		color:#FFFFFF;
+		font-size:1.9em;
+		font-weight:600;
+		letter-spacing:0.075em;
+		line-height:1;
+	}
+	#XX_Off_XX-Redemption {
+		font-size:0.9em;
+		line-height:2.0;
+		color:#FFFFFF;
+		line-height:3;
+	}
+</style>
+
+<div id="XX_Off_XX">
+	<div id="XX_Off_XX-Inner-wrapper">
+			<div id="XX_Off_XX-DiscountDetails">ends XX/XX | online only</div>
+			<div id="XX_Off_XX-DollarOff">$20&nbsp;off</div>
+			<div id="XX_Off_XX-DiscountType">your purchase of $75+</div>
+			<div id="XX_Off_XX-Redemption">use code XXXXXX</div>
+
+</div>
