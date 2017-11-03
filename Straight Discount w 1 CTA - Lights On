@@ -1,0 +1,92 @@
+<style>
+	#XX_Off_Purch_1CTA {
+		width:100%;
+		height:100%;
+		background-color:#000000;
+		color:#FFFFFF;
+		font-family: helvetica;
+		text-align:center;
+		position:relative;
+	}
+	#XX_Off_Purch_1CTA-Inner-wrapper { 
+		width:98%;
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform:translate(-50%,-50%);
+		-webkit-transform:translate(-50%,-50%);
+		-moz-transform:translate(-50%,-50%);
+	}
+	#XX_Off_Purch_1CTA-DiscountDetails {
+		font-size:1.25em;
+		line-height:2;
+		color:#FFFFFF;
+		padding-bottom:0.5em;
+	}
+	#XX_Off_Purch_1CTA-PercentOff {
+		color:#FFFFFF;
+		font-size:4.5em;
+		font-weight:bold;
+		line-height:0.6;
+	}
+	#XX_Off_Purch_1CTA-DiscountType {
+		color:#FFFFFF;
+		font-size:1.9em;
+		font-weight:600;
+		letter-spacing:0.075em;
+		line-height:1.6;
+	}
+	#XX_Off_Purch_1CTA-Redemption {
+		font-size:0.9em;
+		color:#FFFFFF;
+		line-height:1;
+	}
+	#XX_Off_Purch_2CTA-HeaderCTA {
+		font-size:1.3em;
+		letter-spacing:0.075em;
+		font-weight:bold;
+		line-height:;
+		color:#00143e;
+	}
+	#XX_Off_Purch_1CTA-CTA-wrapper {
+		width:100%;
+	}
+	.XX_Off_Purch_1CTA-CTA {
+		background-color:#FFFFFF;
+		color:#00143e;
+		font-weight:600;
+		display:inline-block;
+		width: calc(50% - 36px);
+		margin: 15px 4px 0 4px;
+		vertical-align: top;
+		padding:7px 10px;
+		letter-spacing:0.1em;
+		cursor:pointer;
+		font-size:1.1em;
+	}
+	.XX_Off_Purch_1CTA-CTA a {
+		font-weight:600;
+		color:#00143e;
+		text-decoration:none;
+		cursor:pointer;
+		width:100%;
+		display:block;
+	}
+	a.pd_div-wrapper {
+		text-decoration:none;
+		cursor:pointer;
+	}
+</style>	
+
+<div id="XX_Off_Purch_1CTA">
+	<div id="XX_Off_Purch_1CTA-Inner-wrapper">
+			<div id="XX_Off_Purch_1CTA-DiscountDetails">limited time | online &amp; in stores</div>
+			<div id="XX_Off_Purch_1CTA-PercentOff">00% off</div>
+			<div id="XX_Off_Purch_1CTA-DiscountType">women's jeans</div>
+			<div id="XX_Off_Purch_1CTA-Redemption">use code XXXXXX</div>
+			<div id="XX_Off_Purch_1CTA-CTA-wrapper">
+			<a href="/browse/category.do?cid=1041624" mlink="PD_1">
+			<div class="XX_Off_Purch_1CTA-CTA">SHOP NOW</div>
+			</a>
+
+</div>
