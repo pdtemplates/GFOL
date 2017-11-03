@@ -47,7 +47,7 @@
 	}
 	.Cat_Fr_X_1_CTA-CTA {
 		background-color:#ffffff;
-		color:#fd0000;
+		color:#000000;
 		font-weight:600;
 		display:inline-block;
 		width: calc(50% - 36px);
