@@ -1,0 +1,88 @@
+<style>
+	#Cat_Fr_X_1_CTA {
+		width:100%;
+		height:100%;
+		background-color:#000000;
+		color:#FFFFFF;
+		font-family: helvetica;
+		text-align:center;
+		position:relative;
+	}
+	#XX_Off_Inner-wrapper { 
+		width:98%;
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform:translate(-50%,-50%);
+		-webkit-transform:translate(-50%,-50%);
+		-moz-transform:translate(-50%,-50%);
+	}
+	#Cat_Fr_X_1_CTA-CatFromX {
+		color:#FFFFFF;
+		font-size:2em;
+		font-weight:bold;
+		line-height:0.75;
+	}
+	#Cat_Fr_X_1_CTA-DiscountType {
+		color:#FFFFFF;
+		font-size:3.85em;
+		font-weight:600;
+		line-height:1.25;
+	}
+	#Cat_Fr_X_1_CTA-DiscountDetails {
+		font-size:1.25em;
+		line-height:2;
+		color:#FFFFFF;
+		padding-bottom: 0.5em;
+	}
+	#Cat_Fr_X_1_CTA-HeaderCTA {
+		font-size:1.3em;
+		letter-spacing:.075em;
+		font-weight:bold;
+		line-height:1;
+		color:#FFF;
+	}
+	#Cat_Fr_X_1_CTA-CTA-wrapper {
+		width:100%;
+	}
+	.Cat_Fr_X_1_CTA-CTA {
+		background-color:#FFF;
+		color:#000000;
+		font-weight:600;
+		display:inline-block;
+		width: calc(50% - 36px);
+		margin: 15px 4px 0 4px;
+		vertical-align: top;
+		padding:7px 10px;
+		letter-spacing:.1em;
+		cursor:pointer;
+		font-size:1.1em;
+	}
+	.Cat_Fr_X_1_CTA-CTA a {
+
+		font-weight:600;
+		color:#00143e;
+		text-decoration:none;
+		cursor:pointer;
+		width:100%;
+		display:block;
+	}
+	a.pd_div-wrapper {
+		text-decoration:none;
+		cursor:pointer;
+	}
+</style>
+
+<div id="Cat_Fr_X_1_CTA">
+	<div id="XX_Off_Inner-wrapper">
+			<div id="Cat_Fr_X_1_CTA-DiscountDetails">ends XX/XX | online &amp; in stores</div>
+			<div id="Cat_Fr_X_1_CTA-CatFromX">all lorem ipsum lorem</div>
+			<div id="Cat_Fr_X_1_CTA-DiscountType">up to 00% off</div>
+		<div id="Cat_Fr_X_1_CTA-CTA-wrapper">
+			<a href="/browse/category.do?cid=1041624" mlink="PD_1">
+				<div class="Cat_Fr_X_1_CTA-CTA">SHOP NOW</div>
+			</a>
+			
+		</div>
+	</div>
+</div>
