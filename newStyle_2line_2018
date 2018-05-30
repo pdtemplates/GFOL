@@ -35,11 +35,11 @@
 }
 </style>
 
-<div class="promodrawer_cont2 sds_uppercase sds_font--primary sds_tx_left">
+<div class="promodrawer_cont2 sds_font--primary sds_tx_left">
     <div class="promodrawer_cont2_wrapper">
-         <div class="discountHeader sds_pd_bottom">all things summer sale</div>
-        <div class="adjFontSize">UP TO XX% OFF</div>
-        <div class="adjFontSize">your purchase</div>
+        <div class="discountHeader sds_pd_bottom">all things summer sale</div>
+        <div class="adjFontSize sds_uppercase">UP TO XX% OFF</div>
+        <div class="adjFontSize sds_uppercase">your purchase</div>
         <div class="discountCode sds_pd_top">Online & In Stores | Code XXXXXX</div>
     </div>
 </div>
