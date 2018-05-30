@@ -31,11 +31,11 @@
 }
 </style>
 
-<div class="promodrawer_cont1 sds_uppercase sds_font--primary sds_tx_left">
+<div class="promodrawer_cont1 sds_font--primary sds_tx_left">
     <div class="promodrawer_cont1_wrapper">
-        <div class="adjFontSize">UP TO XX% OFF</div>
-        <div class="adjFontSize">ALMOST EVERYTHING</div>
-        <div class="adjFontSize">+ EXTRA YY% OFF</div>
+        <div class="adjFontSize sds_uppercase">UP TO XX% OFF</div>
+        <div class="adjFontSize sds_uppercase">ALMOST EVERYTHING</div>
+        <div class="adjFontSize sds_uppercase">+ EXTRA YY% OFF</div>
         <div class="discountCode sds_pd_top">Online & In Stores | Code XXXXXX</div>
     </div>
 </div>
