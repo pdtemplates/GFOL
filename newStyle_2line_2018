@@ -1,0 +1,47 @@
+<style>
+    .promodrawer_cont2 {
+        width:100%;
+        height:100%;
+        background-color:#0085CA;
+        color:#FFFFFF;
+        position:relative;
+    }
+    .promodrawer_cont2_wrapper { 
+        width:98%;
+        position:absolute;
+        top:50%;
+        left:50%;
+        margin-left:0.3em;
+        transform:translate(-50%,-50%);
+        -webkit-transform:translate(-50%,-50%);
+        -moz-transform:translate(-50%,-50%);
+    }
+    .promodrawer_cont2 .discountCode {
+        font-size:1.2em;
+        line-height: 1;
+    }
+    .promodrawer_cont2 .discountHeader {
+        font-size:1.2em;
+        line-height: 1;
+    }
+    .promodrawer_cont2 .adjFontSize {
+        font-size:35px;
+        line-height:1;
+    }
+@media (max-width: 767px) {
+     .promodrawer_cont2 .adjFontSize {
+         font-size:2.7em;
+    }
+}
+</style>
+
+<div class="promodrawer_cont2 sds_uppercase sds_font--primary sds_tx_left">
+    <div class="promodrawer_cont2_wrapper">
+         <div class="discountHeader sds_pd_bottom">all things summer sale</div>
+        <div class="adjFontSize">UP TO XX% OFF</div>
+        <div class="adjFontSize">your purchase</div>
+        <div class="discountCode sds_pd_top">Online & In Stores | Code XXXXXX</div>
+    </div>
+</div>
+
+
