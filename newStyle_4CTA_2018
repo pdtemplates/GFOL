@@ -1,0 +1,80 @@
+<style>
+.promodrawer_cont3 {
+    width:100%;
+    height:100%;
+    background-color:#122344;
+    color:#FFFFFF;
+    position:relative;
+}
+.promodrawer_cont3_wrapper { 
+    width:98%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:0.3em;
+    transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+}
+.promodrawer_cont3 .adjFontSize {
+    font-size:35px;
+    line-height:1.2;
+}
+.promodrawer_cont3 .discountCode {
+    font-size:1em;
+    line-height: 1;
+}
+.promodrawer_cont3 .promoCTA_wrapper {
+	width:100%;
+	margin-left: 1%;
+}
+.promo_4CTA {
+	background-color:#FFFFFF;
+	color:#122344;
+	font-weight:600;
+	display:inline-block;
+	width: calc(50% - 36px);
+	margin: 15px 4px 0 4px;
+	vertical-align: top;
+	padding:7px 10px;
+	letter-spacing:0.1em;
+	cursor:pointer;
+	font-size:1.1em;
+}
+@media (max-width: 767px) {
+     .promodrawer_cont3 .adjFontSize {
+         font-size:2.7em;
+    }
+    .promodrawer_cont3 .promoCTA_wrapper {
+		margin-left: 1.5%;
+	}
+	.promo_4CTA{
+		width: calc(50% - 35px);
+    	margin: 10px 3px 0 3px;
+	}
+}
+</style>	
+
+<div class="promodrawer_cont3 sds_font--primary sds_tx_left">
+	<div class="promodrawer_cont3_wrapper">
+		<div class="adjFontSize sds_uppercase">UP TO XX% OFF</div>	
+        <div class="discountCode">Some short text here $75+</div>
+        <div class="discountCode sds_pd_top_xs">Online & In Stores | Code XXXXXX</div>
+		<div class="promoCTA_wrapper">
+			<a href="/browse/category.do?cid=1041624" mlink="PD_1_W">
+				<div class="promo_4CTA sds_tx_center">WOMEN</div>
+			</a>
+			<a href="/browse/category.do?cid=1041786" mlink="PD_1_M">
+				<div class="promo_4CTA sds_tx_center">MEN</div>
+			</a>
+		</div>
+		<div class="promoCTA_wrapper">
+			<a href="/browse/category.do?cid=1041624" mlink="PD_1_G">
+				<div class="promo_4CTA sds_tx_center">GIRLS</div>
+			</a>
+			<a href="/browse/category.do?cid=1041786" mlink="PD_1_B">
+				<div class="promo_4CTA sds_tx_center">BOYS</div>
+			</a>
+		</div>
+	</div>
+</div>
