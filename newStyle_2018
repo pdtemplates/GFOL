@@ -1,12 +1,12 @@
 <style>
-    #Straight_Discount {
+    .promodrawer_cont1 {
         width:100%;
         height:100%;
         background-color:#122344;
         color:#FFFFFF;
         position:relative;
     }
-    #Straight_Discount-Inner-wrapper { 
+    .promodrawer_cont1_wrapper { 
         width:98%;
         position:absolute;
         top:50%;
@@ -16,48 +16,26 @@
         -webkit-transform:translate(-50%,-50%);
         -moz-transform:translate(-50%,-50%);
     }
-    #Straight_Discount-DiscountDetails {
+    .promodrawer_cont1 .discountCode {
         font-size:1em;
         line-height: 1.5;
     }
-    #Straight_Discount-PercentOff,
-    #Straight_Discount-DiscountType,
-    #Straight_Discount-Redemption {
-        font-size:45px;
+    .promodrawer_cont1 .discountCode {
+        padding-top: 1.1em;
+    }
+    .promodrawer_cont1 .adjFontSize {
+        font-size:30px;
         line-height:1;
     }
-
-
 </style>
 
-<div id="Straight_Discount" class="sds_uppercase sds_font--primary sds_tx_left">
-    <div id="Straight_Discount-Inner-wrapper">
-            <div id="Straight_Discount-DiscountDetails">line here</div>
-            <div class="adjFontSize" id="Straight_Discount-PercentOff">00% off</div>
-            <div class="adjFontSize" id="Straight_Discount-DiscountType">almost</div>
-            <div class="adjFontSize" id="Straight_Discount-Redemption">everything</div>
+<div class="promodrawer_cont1 sds_uppercase sds_font--primary sds_tx_left">
+    <div class="promodrawer_cont1_wrapper">
+        <div class="adjFontSize">UP TO XX% OFF</div>
+        <div class="adjFontSize">ALMOST EVERYTHING</div>
+        <div class="adjFontSize">+ EXTRA YY% OFF</div>
+        <div class="discountCode">Online & In Stores | Code XXXXXX</div>
     </div>
 </div>
 
 
-<script>
-var elm = document.getElementsByClassName("adjFontSize");
-var textLength;
-
-for (var i = 0; i < elm.length; i++) {
-    textLength = parseInt(elm[i].innerHTML.length);
-    
-    if(window.screen.width > 787 && textLength >= 15){      
-        elm[i].style.fontSize =  "30px";
-        }
-    else if(window.screen.width < 321 && textLength >= 15){
-        elm[i].style.fontSize =  "21px";
-    }
-    else if(window.screen.width < 787 && textLength >= 15){
-         elm[i].style.fontSize =  "25px";
-        }  
-    else {
-         elm[i].style.fontSize =  "45px";
-    }   
-}
-</script>
