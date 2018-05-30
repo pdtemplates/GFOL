@@ -25,8 +25,8 @@
     line-height: 1;
 }
 .promodrawer_cont3 .promoCTA_wrapper {
-	width:100%;
-	margin-left: 1%;
+    width:100%;
+    margin-left: 1%;
 }
 .promo_4CTA {
 	background-color:#FFFFFF;
@@ -46,18 +46,18 @@
          font-size:2.7em;
     }
     .promodrawer_cont3 .promoCTA_wrapper {
-		margin-left: 1.5%;
-	}
-	.promo_4CTA{
-		width: calc(50% - 35px);
+	margin-left: 1.5%;
+    }
+    .promo_4CTA{
+        width: calc(50% - 35px);
     	margin: 10px 3px 0 3px;
-	}
+    }
 }
 </style>	
 
 <div class="promodrawer_cont3 sds_font--primary sds_tx_left">
 	<div class="promodrawer_cont3_wrapper">
-		<div class="adjFontSize sds_uppercase">UP TO XX% OFF</div>	
+	<div class="adjFontSize sds_uppercase">UP TO XX% OFF</div>	
         <div class="discountCode">Some short text here $75+</div>
         <div class="discountCode sds_pd_top_xs">Online & In Stores | Code XXXXXX</div>
 		<div class="promoCTA_wrapper">
