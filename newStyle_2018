@@ -17,24 +17,19 @@
         -moz-transform:translate(-50%,-50%);
     }
     .promodrawer_cont1 .discountCode {
-        font-size:1em;
+        font-size:1.2em;
         line-height: 1.5;
     }
     .promodrawer_cont1 .discountCode {
         padding-top: 1.1em;
     }
     .promodrawer_cont1 .adjFontSize {
-        font-size:25px;
+        font-size:30px;
         line-height:1;
     }
-@media (min-width: 320px) and (max-width: 568px){
-    .promodrawer_cont1 .adjFontSize {
-         font-size:22px;
-    }
-}
-@media (min-width: 768px) {
+@media (max-width: 767px) {
      .promodrawer_cont1 .adjFontSize {
-         font-size:30px;
+         font-size:2.2em;
     }
 }
 </style>
