@@ -4,6 +4,7 @@
         height:100%;
         background-color:#0085CA;
         color:#FFFFFF;
+        font-family: Helvetica,Arial,Roboto,sans-serif;
         position:relative;
     }
     .promodrawer_cont2_wrapper { 
@@ -16,6 +17,7 @@
         -webkit-transform:translate(-50%,-50%);
         -moz-transform:translate(-50%,-50%);
         padding-left: 5px;
+        font-weight: 500;
     }
     .promodrawer_cont2 .discountCode {
         font-size:1.2em;
@@ -28,6 +30,7 @@
     .promodrawer_cont2 .adjFontSize {
         font-size:35px;
         line-height:1;
+        text-transform: uppercase;
     }
 @media (max-width: 767px) {
      .promodrawer_cont2 .adjFontSize {
@@ -36,11 +39,11 @@
 }
 </style>
 
-<div class="promodrawer_cont2 sds_font--primary sds_tx_left">
+<div class="promodrawer_cont2 sds_tx_left">
     <div class="promodrawer_cont2_wrapper">
         <div class="discountHeader sds_pd_bottom">all things summer sale</div>
-        <div class="adjFontSize sds_uppercase">UP TO XX% OFF</div>
-        <div class="adjFontSize sds_uppercase">your purchase</div>
+        <div class="adjFontSize">UP TO XX% OFF</div>
+        <div class="adjFontSize">your purchase</div>
         <div class="discountCode sds_pd_top">Online & In Stores | Code XXXXXX</div>
     </div>
 </div>
