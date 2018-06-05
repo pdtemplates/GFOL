@@ -4,6 +4,7 @@
     height:100%;
     background-color:#122344;
     color:#FFFFFF;
+    font-family: Helvetica,Arial,Roboto,sans-serif;
     position:relative;
 }
 .promodrawer_cont3_wrapper { 
@@ -15,14 +16,18 @@
     transform:translate(-50%,-50%);
     -webkit-transform:translate(-50%,-50%);
     -moz-transform:translate(-50%,-50%);
+    padding-left: 5px;
+    font-weight: 500;
 }
 .promodrawer_cont3 .adjFontSize {
     font-size:35px;
     line-height:1.2;
+    text-transform: uppercase;
 }
 .promodrawer_cont3 .discountCode {
     font-size:1em;
     line-height: 1;
+    padding-top:0.5em;
 }
 .promodrawer_cont3 .promoCTA_wrapper {
     width:100%;
@@ -55,11 +60,11 @@
 }
 </style>	
 
-<div class="promodrawer_cont3 sds_font--primary sds_tx_left">
+<div class="promodrawer_cont3 sds_tx_left">
 	<div class="promodrawer_cont3_wrapper">
-	<div class="adjFontSize sds_uppercase">UP TO XX% OFF</div>	
+	<div class="adjFontSize">UP TO XX% OFF</div>	
         <div class="discountCode">Some short text here $75+</div>
-        <div class="discountCode sds_pd_top_xs">Online & In Stores | Code XXXXXX</div>
+        <div class="discountCode">Online & In Stores | Code XXXXXX</div>
 		<div class="promoCTA_wrapper">
 			<a href="/browse/category.do?cid=1041624" mlink="PD_1_W">
 				<div class="promo_4CTA sds_tx_center">WOMEN</div>
