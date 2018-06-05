@@ -45,6 +45,7 @@
 	letter-spacing:0.1em;
 	cursor:pointer;
 	font-size:1.1em;
+	text-align: center;
 }
 @media (max-width: 767px) {
      .promodrawer_cont3 .adjFontSize {
@@ -67,18 +68,18 @@
         <div class="discountCode">Online & In Stores | Code XXXXXX</div>
 		<div class="promoCTA_wrapper">
 			<a href="/browse/category.do?cid=1041624" mlink="PD_1_W">
-				<div class="promo_4CTA sds_tx_center">WOMEN</div>
+				<div class="promo_4CTA">WOMEN</div>
 			</a>
 			<a href="/browse/category.do?cid=1041786" mlink="PD_1_M">
-				<div class="promo_4CTA sds_tx_center">MEN</div>
+				<div class="promo_4CTA">MEN</div>
 			</a>
 		</div>
 		<div class="promoCTA_wrapper">
 			<a href="/browse/category.do?cid=1041624" mlink="PD_1_G">
-				<div class="promo_4CTA sds_tx_center">GIRLS</div>
+				<div class="promo_4CTA">GIRLS</div>
 			</a>
 			<a href="/browse/category.do?cid=1041786" mlink="PD_1_B">
-				<div class="promo_4CTA sds_tx_center">BOYS</div>
+				<div class="promo_4CTA">BOYS</div>
 			</a>
 		</div>
 	</div>
