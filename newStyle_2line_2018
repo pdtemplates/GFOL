@@ -22,10 +22,12 @@
     .promodrawer_cont2 .discountCode {
         font-size:1.2em;
         line-height: 1;
+        padding-top: 1em;
     }
     .promodrawer_cont2 .discountHeader {
         font-size:1.2em;
         line-height: 1;
+        padding-bottom: 1em;
     }
     .promodrawer_cont2 .adjFontSize {
         font-size:35px;
@@ -41,10 +43,10 @@
 
 <div class="promodrawer_cont2 sds_tx_left">
     <div class="promodrawer_cont2_wrapper">
-        <div class="discountHeader sds_pd_bottom">all things summer sale</div>
+        <div class="discountHeader">all things summer sale</div>
         <div class="adjFontSize">UP TO XX% OFF</div>
         <div class="adjFontSize">your purchase</div>
-        <div class="discountCode sds_pd_top">Online & In Stores | Code XXXXXX</div>
+        <div class="discountCode">Online & In Stores | Code XXXXXX</div>
     </div>
 </div>
 
