@@ -17,10 +17,12 @@
         -webkit-transform:translate(-50%,-50%);
         -moz-transform:translate(-50%,-50%);
         padding-left: 15px;
+        padding-top: 1em;
+        padding-bottom: 1em;
         font-weight: 500;
     }
     .promodrawer_cont1 .discountCode {
-        font-size:1.2em;
+        font-size:1em;
         line-height: 1.5;
     }
     .promodrawer_cont1 .adjFontSize {
