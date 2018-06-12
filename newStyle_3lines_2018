@@ -25,8 +25,13 @@
         font-size:1em;
         line-height: 1.5;
     }
-    .promodrawer_cont1 .adjFontSize {
+    .extraChange{
         font-size:30px;
+        line-height:1;
+        text-transform: uppercase;
+    }
+    .promodrawer_cont1 .adjFontSize {
+        font-size:20px;
         line-height:1;
         text-transform: uppercase;
     }
@@ -39,7 +44,7 @@
 
 <div class="promodrawer_cont1 sds_tx_left">
     <div class="promodrawer_cont1_wrapper">
-        <div class="adjFontSize">UP TO 70% OFF</div>
+        <div class="extraChange">UP TO 70% OFF</div>
         <div class="adjFontSize">+EXTRA 20% OFF</div>
         <div class="adjFontSize">YOUR PURCHASE</div>
         <div class="discountCode">Online & In Stores | Code XXXXXX</div>
