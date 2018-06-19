@@ -1,5 +1,5 @@
 <style>
-    .promodrawer_cont2 {
+    .promodrawer_cont5 {
         width:100%;
         height:100%;
         background-color:#0085CA;
@@ -7,7 +7,7 @@
         font-family: Helvetica,Arial,Roboto,sans-serif;
         position:relative;
     }
-    .promodrawer_cont2_wrapper { 
+    .promodrawer_cont5_wrapper { 
         width:98%;
         position:absolute;
         top:50%;
@@ -21,36 +21,36 @@
         padding-bottom: 1em;
         font-weight: 500;
     }
-    .promodrawer_cont2 .discountCode {
+    .promodrawer_cont5 .discountCode {
         font-size: 1.1em;
         line-height: 1;
         padding-top: 10px;
         font-weight: 300;
     }
-    .promodrawer_cont2 .discountHeader {
+    .promodrawer_cont5 .discountHeader {
         font-size:40px;
         line-height: 1;
         text-transform: uppercase;
     }
-    .promodrawer_cont2 .adjFontSize {
+    .promodrawer_cont5 .adjFontSize {
         font-size:30px;
         line-height:1;
         text-transform: uppercase;
     }
 @media (max-width: 767px) {
-    .promodrawer_cont2 .discountHeader {
+    .promodrawer_cont5 .discountHeader {
         font-size:28px;
         line-height: 1;
         text-transform: uppercase;
     }
-     .promodrawer_cont2 .adjFontSize {
+     .promodrawer_cont5 .adjFontSize {
          font-size:20px;
     }
 }
 </style>
 
-<div class="promodrawer_cont2 sds_tx_left">
-    <div class="promodrawer_cont2_wrapper"> 
+<div class="promodrawer_cont5 sds_tx_left">
+    <div class="promodrawer_cont5_wrapper"> 
        <div class="discountHeader">UP TO 70% OFF</div>
         <div class="adjFontSize">+EXTRA 15% OFF</div>
         <div class="adjFontSize">your purchase</div>
