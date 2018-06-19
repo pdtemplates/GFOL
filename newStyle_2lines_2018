@@ -38,17 +38,18 @@
     }
 @media (max-width: 767px) {
      .promodrawer_cont2 .adjFontSize {
-         font-size:2.7em;
+         font-size:2.5em;
     }
 }
 </style>
 
 <div class="promodrawer_cont2 sds_tx_left">
     <div class="promodrawer_cont2_wrapper">
-        <div class="discountHeader">all things summer sale</div>
-        <div class="adjFontSize">UP TO XX% OFF</div>
+       
+        <div class="adjFontSize">EXTRA 15% OFF</div>
         <div class="adjFontSize">your purchase</div>
-        <div class="discountCode">Online & In Stores | Code XXXXXX</div>
+        <div class="discountCode">Online & In Stores | Code SUNSHINE <br>
+        includes clearance.</div>
     </div>
 </div>
 
