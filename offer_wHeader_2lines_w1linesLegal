@@ -2,7 +2,7 @@
     .promodrawer_cont1 {
         width:100%;
         height:100%;
-        background-color:#0085CA;
+        background-color:#122344;
         color:#FFFFFF;
         font-family: Helvetica,Arial,Roboto,sans-serif;
         position:relative;
@@ -22,32 +22,33 @@
         font-weight: 500;
     }
     .promodrawer_cont1 .discountCode {
-        font-size:1em;
-        line-height: 1.5;
+        font-size:1.1em;
+        line-height: 1;
+        padding-top: 0.5em;
     }
-    .extraChange{
-        font-size:30px;
-        line-height:1;
-        text-transform: uppercase;
+    .promodrawer_cont1 .discountHeader {
+        font-size:1.3em;
+        line-height: 1;
+        padding-bottom: 0.5em;
     }
     .promodrawer_cont1 .adjFontSize {
-        font-size:20px;
+        font-size:30px;
         line-height:1;
         text-transform: uppercase;
     }
 @media (max-width: 767px) {
      .promodrawer_cont1 .adjFontSize {
-         font-size:2.2em;
+         font-size:2.5em;
     }
 }
 </style>
 
 <div class="promodrawer_cont1 sds_tx_left">
-    <div class="promodrawer_cont1_wrapper">
-        <div class="extraChange">UP TO 70% OFF</div>
-        <div class="adjFontSize">+EXTRA 20% OFF</div>
-        <div class="adjFontSize">YOUR PURCHASE</div>
-        <div class="discountCode">Online & In Stores | Code XXXXXX</div>
+    <div class="promodrawer_cont1_wrapper"> 
+        <div class="discountHeader">ENDS 6/30 | IN-STORE EXCLUSIVE</div>
+        <div class="adjFontSize">EXTRA 15% OFF</div>
+        <div class="adjFontSize">your purchase</div>
+        <div class="discountCode">Online & In Stores <br>Code SUNSHINE </div>
     </div>
 </div>
 
