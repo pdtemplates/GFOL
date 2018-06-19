@@ -24,16 +24,16 @@
     .promodrawer_cont5 .discountCode {
         font-size: 1.1em;
         line-height: 1;
-        padding-top: 10px;
-        font-weight: 300;
+        padding-top: 0.5em;
     }
     .promodrawer_cont5 .discountHeader {
         font-size:40px;
         line-height: 1;
+        padding-bottom: 5px;
         text-transform: uppercase;
     }
     .promodrawer_cont5 .adjFontSize {
-        font-size:30px;
+        font-size:28px;
         line-height:1;
         text-transform: uppercase;
     }
