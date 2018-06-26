@@ -42,6 +42,9 @@
      .promodrawer_cont1 .adjFontSize {
          font-size:2.5em;
     }
+    .promodrawer_cont1 .discountCode {
+        font-size:1.2em;
+    }
 }
 </style>
 
