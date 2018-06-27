@@ -1,0 +1,69 @@
+<style>
+    .promodrawer_cont8 {
+        width:100%;
+        height:100%;
+        background-color:#0085CA;
+        color:#FFF;
+        font-family: Helvetica,Arial,Roboto,sans-serif;
+        position:relative;
+    }
+    .promodrawer_cont8_wrapper { 
+        width:98%;
+        position:absolute;
+        top:50%;
+        left:50%;
+        margin-left:0.3em;
+        transform:translate(-50%,-50%);
+        -webkit-transform:translate(-50%,-50%);
+        -moz-transform:translate(-50%,-50%);
+        padding-left: 15px;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        font-weight: 500;
+    }
+    .promodrawer_cont8 .discountCode {
+        font-size:1.3em;
+        line-height: 1;
+        padding-top: 0.5em;
+        font-weight: 400;
+        letter-spacing: 0.4px;
+        color:#122344;
+    }
+    .promodrawer_cont8 .discountHeader {
+        font-size:1em;
+        line-height: 1;
+        padding-bottom: 1em;
+    }
+    .promodrawer_cont8 .adjFontSize {
+        font-size:35px;
+        line-height:1;
+        text-transform: uppercase;
+    }
+    .grayTopline{
+        border-top: 1px solid #ccc;
+        margin-bottom: 01em;
+        width: 94%;
+    }
+    .grayBottomline{
+        border-bottom: 1px solid #ccc;
+        width: 94%;
+        margin-bottom: 0.8em;
+    }
+@media (max-width: 767px) {
+     .promodrawer_cont8 .adjFontSize {
+         font-size:2.5em;
+    }
+}
+</style>
+
+<div class="promodrawer_cont8 sds_tx_left">
+    <div class="promodrawer_cont8_wrapper"> 
+        <div class="grayTopline"></div>
+         <div class="adjFontSize">FREE SHIPPING</div>
+        <div class="adjFontSize">NOW ON ONLINE</div>
+        <div class="adjFontSize">ORDERS OF $50+</div>
+        <div class="grayBottomline"></div>
+    </div>
+</div>
+
+
