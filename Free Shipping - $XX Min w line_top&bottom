@@ -47,7 +47,7 @@
     .grayBottomline{
         border-bottom: 1px solid #ccc;
         width: 94%;
-        margin-bottom: 0.8em;
+        padding-bottom: 0.8em;
     }
 @media (max-width: 767px) {
      .promodrawer_cont8 .adjFontSize {
