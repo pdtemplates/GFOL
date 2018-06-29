@@ -1,5 +1,5 @@
 <style>
-    .promodrawer_cont7 {
+    .promodrawer_cont9 {
         width:100%;
         height:100%;
         background-color:#FFF;
@@ -7,7 +7,7 @@
         font-family: Helvetica Neue,Arial,Roboto,sans-serif;
         position:relative;
     }
-    .promodrawer_cont7_wrapper { 
+    .promodrawer_cont9_wrapper { 
         width:98%;
         position:absolute;
         top:50%;
@@ -21,31 +21,31 @@
         padding-bottom: 1em;
         font-weight: 500;
     }
-    .promodrawer_cont7 .discountCode {
+    .promodrawer_cont9 .discountCode {
         font-size: 1.2em;
         line-height: 1;
         padding-top: 0.5em;
         font-weight: 500;
         letter-spacing: 0.4px;
     }
-    .promodrawer_cont7 .discountHeader {
+    .promodrawer_cont9 .discountHeader {
         font-size: 1.2em;
         line-height: 1;
         padding-bottom: 0.5em;
         font-weight: 400;
         letter-spacing: 0.4px;
     }
-    .promodrawer_cont7 .adjFontSize {
+    .promodrawer_cont9 .adjFontSize {
         font-size: 3.3em;
         line-height: 1;
         text-transform: uppercase;
         font-weight: 500;
     }
-    .promodrawer_cont7 .promoCTA_wrapper {
+    .promodrawer_cont9 .promoCTA_wrapper {
     	width:100%;
     	margin-left: -0.3em;
     }
-    .promodrawer_cont7 .promo_2CTA {
+    .promodrawer_cont9 .promo_2CTA {
     	background-color:#122344;
     	color:#FFF;
     	font-weight:500;
@@ -61,18 +61,18 @@
     }
 
 @media (max-width: 767px) {
-    .promodrawer_cont7 .adjFontSize {
+    .promodrawer_cont9 .adjFontSize {
          font-size:2.8em;
     }
-    .promodrawer_cont7 .discountCode {
+    .promodrawer_cont9 .discountCode {
         font-size:1.1em;
         padding-top: 0.2em;
     }
-    .promodrawer_cont7 .discountHeader {
+    .promodrawer_cont9 .discountHeader {
         font-size: 1em;
         padding-top: 0.5em;
     }
-    .promodrawer_cont7 .promo_2CTA {
+    .promodrawer_cont9 .promo_2CTA {
         font-size: 1em;
         width: calc(50% - 30px);
         margin: 8px 4px 0 3px;
@@ -81,16 +81,17 @@
 }
 </style>
 
-<div class="promodrawer_cont7 sds_tx_left">
-    <div class="promodrawer_cont7_wrapper"> 
+<div class="promodrawer_cont9 sds_tx_left">
+    <div class="promodrawer_cont9_wrapper"> 
         <div class="discountHeader">JOIN OUR EMAIL LIST TO RECEIVE</div>
         <div class="adjFontSize">15% OFF +</div>
         <div class="adjFontSize">FREE SHIPPING</div>
         <div class="discountCode">ON YOUR NEXT PURCHASE</div>
         <div class="promoCTA_wrapper">
-			<a href="/profile/info.do?cid=1037238&promoDrawer=true" target="_blank" alt="Sign up for email and get 15% off your purchase">
-				<div class="promo_2CTA">SIGN UP & SAVE</div>
-			</a>
+	        <a href="/profile/info.do?cid=1037238&promoDrawer=true" target="_blank" alt="Sign up for email and get 15% off your purchase">
+		        <div class="promo_2CTA">SIGN UP & SAVE</div>
+            </a>
+       </div>
     </div>
 </div>
 
